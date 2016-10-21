@@ -10,14 +10,20 @@ public class main {
 	@Test
 	public void testResta(){
 		
-		assertEquals(2,sum(2,4));
+		assertEquals(2,rest(2,4));
+	}
+	
+	@Test
+	public void testRestaCero(){
+		assertEquals(4, rest(0,4));
+		assertEquals(4, rest(4,0));
+
 	}
 	
 	
-	
-	int sum(int a, int b){
+	int rest(int a, int b){
 		
 		return 5;
 	}
-
+	
 }
