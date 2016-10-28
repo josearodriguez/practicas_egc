@@ -1,14 +1,14 @@
 package egc;
-
+import java.lang.Math;
 public class rest {
 
 	public static int restar(int a, int b){
 		
-		return a-b;
+		return Math.abs(a-b);
 	}
 	
 	public static int restar(int a, int b,int c){
 		
-		return a-b;
+		return Math.abs(a-b-c);
 	}
 }
